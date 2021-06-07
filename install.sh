@@ -4,11 +4,14 @@ set -ex
 echo "Update"
 apt-get update 
 
-echo "Install unzip curl wget "
-apt-get install -y unzip curl wget gnupg2
+echo "Install curl wget gnupg2 ca-certificates"
+apt-get install -y git unzip curl wget gnupg2 ca-certificates
 
 echo "Install Mysql Client"
 apt-get install -y default-mysql-client
+
+echo "Install postgresql-client"
+apt-get install -y postgresql-client
 
 echo "Intall rclone"
 curl https://rclone.org/install.sh | bash
