@@ -6,9 +6,11 @@ package installed:
 - postgresql-client
 - mysql-client
 - mongo-shell
+- azure-cli
+- terraform
 
 ## Pull
 
 ```
-docker pull quay.io/orvice/ubuntu-full:latest
+docker pull ghcr.io/orvice/ubuntu-full:master
 ```
