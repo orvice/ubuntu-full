@@ -5,7 +5,7 @@ echo "Update"
 apt-get update 
 
 echo "Install curl wget gnupg2 ca-certificates"
-apt-get install -y git unzip curl wget gnupg2 ca-certificates sudo
+apt-get install -y git unzip curl wget gnupg2 ca-certificates sudo nginx
 
 echo "Install Mysql Client"
 apt-get install -y default-mysql-client
